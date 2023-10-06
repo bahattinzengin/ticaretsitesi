@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> E-COMMERCE </title>
+
+    <!-- css bağlantı -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+</head>
+
+<body>
+
+    <!-- üst kısım -->
+
+    <header>
+        <h1>E-Ticaret</h1>
+        <input type="text" placeholder="ürün ismi giriniz">
+
+        <div>
+            <button id="basket-btn">Sepet</button>
+            <button>Kayıt Ol</button>
+            <button>Giriş yap</button>
+        </div>
+    </header>
+    <!-- ana içerik -->
+    <main>
+        <!-- kategoriler -->
+        <section id="category-sec">
+            <h1>kategoriler</h1>
+
+            <div class="categories">
+
+                <!-- kategori -->
+                <!-- 
+            <div class="category">
+                <img src="https://picsum.photos/640/640?r=719" alt="">
+                <h2>Yiyecek</h2>
+            </div> -->
+            </div>
+
+
+        </section>
+
+
+        <!-- ürünler -->
+
+        <section id="product-sec">
+            <h1>Ürünler</h1>
+
+            <div class="products">
+
+                <!-- Kart -->
+
+                <!--                 
+
+                <div class="card">
+                    <img src="https://picsum.photos/640/640?r=719" alt="">
+                    <h4>Practical</h4>
+                    <h4>electronic</h4>
+                    <div class="info">
+                        <span>500$</span>
+                        <button>Sepete ekle</button>
+                    </div>
+                </div> -->
+
+            </div>
+
+        </section>
+    </main>
+
+
+    <!-- sepet modal -->
+
+    <div class="modal-wrapper">
+        <div class="modal">
+            <!-- kapatma butonu -->
+            <div id="btn-wrapper">
+                <img id="close-btn" src="image/e-colse.png" alt="">
+            </div>
+            <!-- sepetteki ürünler -->
+            <div id="list">
+                <!-- <div class="item">
+                    <img src="image/e-colse.png">
+                    <h3 class="title"> tshirt </h3>
+                    <h4 class="price">900 </h4>
+                    <p>Miktar :6</p>
+                    <img id="delete-img" src="image/delete.png" alt="">
+                </div> -->
+
+
+
+
+            </div>
+            <!-- toplam alanı -->
+            <div id="total">
+                <span id="count">0 ürün</span>
+                toplam
+                <span id="price">0</span>$
+            </div>
+        </div>
+
+
+
+
+
+    </div>
+
+
+    <!-- js bağlantı -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
